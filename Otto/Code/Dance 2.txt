@@ -1,0 +1,83 @@
+#include <Servo.h> 
+Servo rightfoot;
+Servo rightthigh;
+Servo leftfoot;
+Servo leftthigh;
+void setup() 
+{ 
+rightfoot.attach(9);
+rightthigh.attach(5);
+leftfoot.attach(3);
+leftthigh.attach(11);
+} 
+
+
+void loop() 
+{
+leftfoot.write(10);
+leftthigh.write(90);
+rightthigh.write(105);
+rightfoot.write(180);
+delay(1000);
+leftfoot.write(17);
+delay(25);
+leftthigh.write(95);
+delay(25);
+rightthigh.write(107.5);
+delay(25);
+leftfoot.write(24);
+delay(25);
+leftthigh.write(100);
+delay(25);
+rightthigh.write(110);
+delay(25);
+leftfoot.write(31);
+delay(25);
+leftthigh.write(105);
+delay(25);
+rightthigh.write(112.5);
+delay(25);
+leftfoot.write(38);
+delay(25);
+leftthigh.write(110);
+delay(25);
+rightthigh.write(115);
+delay(25);
+leftfoot.write(45);
+delay(25);
+leftthigh.write(115);
+delay(25);
+rightthigh.write(117.5);
+delay(25);
+leftfoot.write(52);
+delay(25);
+leftthigh.write(120);
+delay(25);
+rightthigh.write(120);
+delay(25);
+leftfoot.write(59);
+delay(25);
+leftthigh.write(125);
+delay(25);
+rightthigh.write(122.5);
+delay(25);
+leftfoot.write(66);
+delay(25);
+leftthigh.write(130);
+delay(25);
+rightthigh.write(125);
+delay(25);
+leftfoot.write(73);
+delay(25);
+leftthigh.write(135);
+delay(25);
+rightthigh.write(127.5);
+delay(25);
+leftfoot.write(80);
+delay(25);
+leftthigh.write(140);
+delay(25);
+rightthigh.write(130);
+delay(1000);
+
+}
